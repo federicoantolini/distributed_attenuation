@@ -1,0 +1,13 @@
+#!/bin/sh
+#$ -cwd
+#$ -M federico-antolini@uiowa.edu -m e
+#$ -N hewett_paper1
+#$ -q UI
+#$ -e /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/ -o /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/ -j y
+# -pe smp 64
+#$ -pe 56cpn 56
+
+#OMP_NUM_THREADS=2
+cd /Users/antolini/miniconda3/lib/python3.7/site-packages/wflow
+mpirun -n 10 --map-by node python -m mpi_distrib_RR -C /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5 -D /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/distribution_list_1.txt
+#python -m mpi_distrib_RR -C /Users/antolini/Volga/Hewett/hewett_ts1min_70mm1_0mm5 -D distribution_list_1.txt

@@ -1,0 +1,788 @@
+2021-04-03 19:33:07,460 - wflow_sbm - pcrut - DEBUG - File logging to /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/MID1_300649_par/wflow.log
+2021-04-03 19:33:07,460 - wflow_sbm - wf_DynamicFramework_federico - INFO - wflow_sbm 2020.1.1 Case: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5 Runid: MID1_300649_par
+2021-04-03 19:33:07,460 - wflow_sbm - wf_DynamicFramework_federico - INFO - Initialise framework version: 2020.1.1
+2021-04-03 19:33:07,466 - wflow_sbm - wf_DynamicFramework_federico - WARNING - Ini file made for sbm but found __main__ in code.
+2021-04-03 19:33:11,150 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding csv output at /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/step2/wflow_subcatch.map function: average
+2021-04-03 19:33:11,180 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding csv output at /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/step2/wflow_gauges.map function: maximum
+2021-04-03 19:33:11,211 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding csv output at /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/step2/wflow_gauges.map function: average
+2021-04-03 19:33:11,250 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding csv output at /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/MID1_300649_par/reservoirs/ReservoirLocs_MID1_300649_par.map function: average
+2021-04-03 19:33:11,279 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding tss output at /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/step2/wflow_gauges.map function: average
+2021-04-03 19:33:11,279 - wflow_sbm - wflow_sbm_federico - INFO - running for 360 timesteps
+2021-04-03 19:33:11,325 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/step2/wflow_riverlength.map)  not present, returning 0.0
+2021-04-03 19:33:11,385 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/step2/wflow_inflow.map)  not present, returning 0.0
+2021-04-03 19:33:11,413 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5\staticmaps/wflow_tempcor.map)  not present, returning 0.0
+2021-04-03 19:33:11,458 - wflow_sbm - wflow_sbm_federico - INFO - Linking parameters to landuse, catchment and soil...
+2021-04-03 19:33:11,458 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding Precipitation to model.
+2021-04-03 19:33:11,458 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/inmaps/P.map)  not present, returning 0.0
+2021-04-03 19:33:11,473 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding PotenEvap to model.
+2021-04-03 19:33:11,474 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/inmaps/PET.map)  not present, returning 0.0
+2021-04-03 19:33:11,487 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding Temperature to model.
+2021-04-03 19:33:11,488 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/inmaps/TEMP.map)  not present, returning 10.0
+2021-04-03 19:33:11,501 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding Inflow to model.
+2021-04-03 19:33:11,516 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding IrrigationAreas to model.
+2021-04-03 19:33:11,516 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/wflow_irrigationareas.map)  not present, returning 0.0
+2021-04-03 19:33:11,523 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding IrrigationSurfaceIntakes to model.
+2021-04-03 19:33:11,523 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/wflow_irrisurfaceintake.map)  not present, returning 0.0
+2021-04-03 19:33:11,531 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding IrrigationPaddyAreas to model.
+2021-04-03 19:33:11,531 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/wflow_irrigationpaddyareas.map)  not present, returning 0.0
+2021-04-03 19:33:11,539 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding IrrigationSurfaceReturn to model.
+2021-04-03 19:33:11,539 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/wflow_irrisurfacereturns.map)  not present, returning 0.0
+2021-04-03 19:33:11,546 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding h_max to model.
+2021-04-03 19:33:11,547 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/wflow_hmax.map)  not present, returning 0.0
+2021-04-03 19:33:11,554 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding h_min to model.
+2021-04-03 19:33:11,555 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/wflow_hmin.map)  not present, returning 0.0
+2021-04-03 19:33:11,561 - wflow_sbm - wf_DynamicFramework_federico - INFO - Adding h_p to model.
+2021-04-03 19:33:11,561 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - Static input data (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/staticmaps/wflow_hp.map)  not present, returning 0.0
+2021-04-03 19:33:11,608 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/RunoffGeneratingGWPerc.tbl
+2021-04-03 19:33:11,713 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/MaxCanopyStorage.tbl
+2021-04-03 19:33:11,817 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/CanopyGapFraction.tbl
+2021-04-03 19:33:11,917 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/EoverR.tbl
+2021-04-03 19:33:12,020 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/RootingDepth.tbl
+2021-04-03 19:33:12,117 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/rootdistpar.tbl
+2021-04-03 19:33:12,203 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/InfiltCapSoil.tbl
+2021-04-03 19:33:12,301 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/CapScale.tbl
+2021-04-03 19:33:12,395 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/InfiltCapPath.tbl
+2021-04-03 19:33:12,498 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/MaxLeakage.tbl
+2021-04-03 19:33:12,595 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/MaxPercolation.tbl
+2021-04-03 19:33:12,712 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/PathFrac.tbl
+2021-04-03 19:33:12,799 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/SoilThickness.tbl
+2021-04-03 19:33:12,886 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/thetaR.tbl
+2021-04-03 19:33:12,973 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/thetaS.tbl
+2021-04-03 19:33:13,059 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/SoilMinThickness.tbl
+2021-04-03 19:33:13,146 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/KsatVer.tbl
+2021-04-03 19:33:13,246 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/MporeFrac.tbl
+2021-04-03 19:33:13,333 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/KsatHorFrac.tbl
+2021-04-03 19:33:13,440 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/M.tbl
+2021-04-03 19:33:13,544 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/N.tbl
+2021-04-03 19:33:13,631 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/N_River.tbl
+2021-04-03 19:33:13,722 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/WaterFrac.tbl
+2021-04-03 19:33:13,811 - wflow_sbm - wf_DynamicFramework_federico - INFO - Creating map from table: /Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/et_reftopot.tbl
+2021-04-03 19:33:14,451 - wflow_sbm - wflow_sbm_federico - INFO - A total of 23 simple reservoirs and 0 complex reservoirs found.
+2021-04-03 19:33:15,729 - wflow_sbm - wf_DynamicFramework_federico - WARNING - tbl file not found (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/KsatVerFrac.tbl) returning default value: 1.0
+2021-04-03 19:33:15,782 - wflow_sbm - wf_DynamicFramework_federico - WARNING - tbl file not found (/Users/antolini/paper1/hewett_ts1min_70mm1_0mm5/intbl/c.tbl) returning default value: 10.0
+2021-04-03 19:33:15,936 - wflow_sbm - wflow_sbm_federico - INFO - Initializing of model variables..
+2021-04-03 19:33:16,689 - wflow_sbm - wflow_sbm_federico - INFO - Saving summary maps...
+2021-04-03 19:33:16,689 - wflow_sbm - wflow_sbm_federico - INFO - End of initial section
+2021-04-03 19:33:16,697 - wflow_sbm - wflow_sbm_federico - INFO - Setting initial conditions to default
+2021-04-03 19:33:21,533 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:33:22,332 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 1/360.0 (2021-05-23 09:00:00)
+2021-04-03 19:33:27,047 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:33:27,788 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 2/360.0 (2021-05-23 09:01:00)
+2021-04-03 19:33:32,523 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:33:33,374 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 3/360.0 (2021-05-23 09:02:00)
+2021-04-03 19:33:37,950 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:33:38,793 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 4/360.0 (2021-05-23 09:03:00)
+2021-04-03 19:33:43,525 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:33:44,298 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 5/360.0 (2021-05-23 09:04:00)
+2021-04-03 19:33:50,139 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:33:50,907 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 6/360.0 (2021-05-23 09:05:00)
+2021-04-03 19:33:56,757 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:33:57,584 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 7/360.0 (2021-05-23 09:06:00)
+2021-04-03 19:34:03,225 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:04,081 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 8/360.0 (2021-05-23 09:07:00)
+2021-04-03 19:34:09,607 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:10,453 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 9/360.0 (2021-05-23 09:08:00)
+2021-04-03 19:34:15,997 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:16,823 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 10/360.0 (2021-05-23 09:09:00)
+2021-04-03 19:34:22,361 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:23,142 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 11/360.0 (2021-05-23 09:10:00)
+2021-04-03 19:34:29,064 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:29,816 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 12/360.0 (2021-05-23 09:11:00)
+2021-04-03 19:34:35,575 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:36,417 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 13/360.0 (2021-05-23 09:12:00)
+2021-04-03 19:34:42,252 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:43,138 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 14/360.0 (2021-05-23 09:13:00)
+2021-04-03 19:34:48,892 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:49,781 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 15/360.0 (2021-05-23 09:14:00)
+2021-04-03 19:34:55,429 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:34:56,308 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 16/360.0 (2021-05-23 09:15:00)
+2021-04-03 19:35:01,987 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:02,793 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 17/360.0 (2021-05-23 09:16:00)
+2021-04-03 19:35:08,546 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:09,385 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 18/360.0 (2021-05-23 09:17:00)
+2021-04-03 19:35:15,019 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:15,831 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 19/360.0 (2021-05-23 09:18:00)
+2021-04-03 19:35:21,384 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:22,218 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 20/360.0 (2021-05-23 09:19:00)
+2021-04-03 19:35:27,800 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:28,653 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 21/360.0 (2021-05-23 09:20:00)
+2021-04-03 19:35:34,129 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:34,926 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 22/360.0 (2021-05-23 09:21:00)
+2021-04-03 19:35:40,405 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:41,260 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 23/360.0 (2021-05-23 09:22:00)
+2021-04-03 19:35:47,057 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:47,934 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 24/360.0 (2021-05-23 09:23:00)
+2021-04-03 19:35:53,676 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:35:54,537 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 25/360.0 (2021-05-23 09:24:00)
+2021-04-03 19:36:00,043 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:00,840 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 26/360.0 (2021-05-23 09:25:00)
+2021-04-03 19:36:06,333 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:07,177 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 27/360.0 (2021-05-23 09:26:00)
+2021-04-03 19:36:12,839 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:13,723 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 28/360.0 (2021-05-23 09:27:00)
+2021-04-03 19:36:19,101 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:19,988 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 29/360.0 (2021-05-23 09:28:00)
+2021-04-03 19:36:25,456 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:26,381 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 30/360.0 (2021-05-23 09:29:00)
+2021-04-03 19:36:31,845 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:32,731 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 31/360.0 (2021-05-23 09:30:00)
+2021-04-03 19:36:38,220 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:39,084 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 32/360.0 (2021-05-23 09:31:00)
+2021-04-03 19:36:44,578 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:45,358 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 33/360.0 (2021-05-23 09:32:00)
+2021-04-03 19:36:50,818 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:51,590 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 34/360.0 (2021-05-23 09:33:00)
+2021-04-03 19:36:57,112 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:36:57,954 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 35/360.0 (2021-05-23 09:34:00)
+2021-04-03 19:37:03,206 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:04,054 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 36/360.0 (2021-05-23 09:35:00)
+2021-04-03 19:37:09,189 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:10,030 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 37/360.0 (2021-05-23 09:36:00)
+2021-04-03 19:37:15,270 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:16,127 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 38/360.0 (2021-05-23 09:37:00)
+2021-04-03 19:37:21,387 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:22,242 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 39/360.0 (2021-05-23 09:38:00)
+2021-04-03 19:37:27,552 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:28,341 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 40/360.0 (2021-05-23 09:39:00)
+2021-04-03 19:37:33,519 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:34,358 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 41/360.0 (2021-05-23 09:40:00)
+2021-04-03 19:37:39,477 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:40,325 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 42/360.0 (2021-05-23 09:41:00)
+2021-04-03 19:37:45,478 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:46,346 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 43/360.0 (2021-05-23 09:42:00)
+2021-04-03 19:37:51,382 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:52,250 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 44/360.0 (2021-05-23 09:43:00)
+2021-04-03 19:37:57,621 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:37:58,484 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 45/360.0 (2021-05-23 09:44:00)
+2021-04-03 19:38:03,581 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:04,435 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 46/360.0 (2021-05-23 09:45:00)
+2021-04-03 19:38:09,558 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:10,337 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 47/360.0 (2021-05-23 09:46:00)
+2021-04-03 19:38:15,451 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:16,285 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 48/360.0 (2021-05-23 09:47:00)
+2021-04-03 19:38:21,372 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:22,247 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 49/360.0 (2021-05-23 09:48:00)
+2021-04-03 19:38:27,394 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:28,271 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 50/360.0 (2021-05-23 09:49:00)
+2021-04-03 19:38:33,296 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:34,166 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 51/360.0 (2021-05-23 09:50:00)
+2021-04-03 19:38:39,178 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:40,031 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 52/360.0 (2021-05-23 09:51:00)
+2021-04-03 19:38:45,062 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:45,900 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 53/360.0 (2021-05-23 09:52:00)
+2021-04-03 19:38:50,952 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:51,733 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 54/360.0 (2021-05-23 09:53:00)
+2021-04-03 19:38:56,775 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:38:57,591 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 55/360.0 (2021-05-23 09:54:00)
+2021-04-03 19:39:02,693 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:03,555 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 56/360.0 (2021-05-23 09:55:00)
+2021-04-03 19:39:08,612 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:09,482 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 57/360.0 (2021-05-23 09:56:00)
+2021-04-03 19:39:14,564 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:15,425 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 58/360.0 (2021-05-23 09:57:00)
+2021-04-03 19:39:20,578 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:21,420 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 59/360.0 (2021-05-23 09:58:00)
+2021-04-03 19:39:26,531 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:27,373 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 60/360.0 (2021-05-23 09:59:00)
+2021-04-03 19:39:32,403 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:33,181 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 61/360.0 (2021-05-23 10:00:00)
+2021-04-03 19:39:38,166 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:39,008 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 62/360.0 (2021-05-23 10:01:00)
+2021-04-03 19:39:44,036 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:44,890 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 63/360.0 (2021-05-23 10:02:00)
+2021-04-03 19:39:49,892 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:50,759 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 64/360.0 (2021-05-23 10:03:00)
+2021-04-03 19:39:55,712 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:39:56,559 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 65/360.0 (2021-05-23 10:04:00)
+2021-04-03 19:40:01,935 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:02,765 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 66/360.0 (2021-05-23 10:05:00)
+2021-04-03 19:40:08,111 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:08,943 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 67/360.0 (2021-05-23 10:06:00)
+2021-04-03 19:40:14,323 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:15,110 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 68/360.0 (2021-05-23 10:07:00)
+2021-04-03 19:40:20,661 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:21,485 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 69/360.0 (2021-05-23 10:08:00)
+2021-04-03 19:40:26,919 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:27,764 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 70/360.0 (2021-05-23 10:09:00)
+2021-04-03 19:40:33,185 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:34,043 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 71/360.0 (2021-05-23 10:10:00)
+2021-04-03 19:40:39,451 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:40,314 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 72/360.0 (2021-05-23 10:11:00)
+2021-04-03 19:40:45,742 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:46,611 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 73/360.0 (2021-05-23 10:12:00)
+2021-04-03 19:40:52,054 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:52,911 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 74/360.0 (2021-05-23 10:13:00)
+2021-04-03 19:40:58,271 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:40:59,057 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 75/360.0 (2021-05-23 10:14:00)
+2021-04-03 19:41:04,450 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:05,262 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 76/360.0 (2021-05-23 10:15:00)
+2021-04-03 19:41:10,667 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:11,516 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 77/360.0 (2021-05-23 10:16:00)
+2021-04-03 19:41:16,943 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:17,798 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 78/360.0 (2021-05-23 10:17:00)
+2021-04-03 19:41:23,199 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:24,085 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 79/360.0 (2021-05-23 10:18:00)
+2021-04-03 19:41:29,476 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:30,328 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 80/360.0 (2021-05-23 10:19:00)
+2021-04-03 19:41:35,769 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:36,626 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 81/360.0 (2021-05-23 10:20:00)
+2021-04-03 19:41:42,020 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:42,842 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 82/360.0 (2021-05-23 10:21:00)
+2021-04-03 19:41:48,252 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:49,096 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 83/360.0 (2021-05-23 10:22:00)
+2021-04-03 19:41:54,366 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:41:55,239 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 84/360.0 (2021-05-23 10:23:00)
+2021-04-03 19:42:00,504 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:01,379 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 85/360.0 (2021-05-23 10:24:00)
+2021-04-03 19:42:06,644 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:07,502 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 86/360.0 (2021-05-23 10:25:00)
+2021-04-03 19:42:12,772 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:13,603 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 87/360.0 (2021-05-23 10:26:00)
+2021-04-03 19:42:18,947 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:19,768 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 88/360.0 (2021-05-23 10:27:00)
+2021-04-03 19:42:25,185 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:25,991 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 89/360.0 (2021-05-23 10:28:00)
+2021-04-03 19:42:31,327 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:32,164 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 90/360.0 (2021-05-23 10:29:00)
+2021-04-03 19:42:37,724 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:38,589 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 91/360.0 (2021-05-23 10:30:00)
+2021-04-03 19:42:43,872 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:44,747 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 92/360.0 (2021-05-23 10:31:00)
+2021-04-03 19:42:49,976 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:50,850 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 93/360.0 (2021-05-23 10:32:00)
+2021-04-03 19:42:56,125 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:42:56,992 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 94/360.0 (2021-05-23 10:33:00)
+2021-04-03 19:43:02,276 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:03,119 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 95/360.0 (2021-05-23 10:34:00)
+2021-04-03 19:43:08,427 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:09,195 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 96/360.0 (2021-05-23 10:35:00)
+2021-04-03 19:43:14,492 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:15,288 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 97/360.0 (2021-05-23 10:36:00)
+2021-04-03 19:43:20,656 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:21,494 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 98/360.0 (2021-05-23 10:37:00)
+2021-04-03 19:43:26,932 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:27,785 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 99/360.0 (2021-05-23 10:38:00)
+2021-04-03 19:43:33,121 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:33,978 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 100/360.0 (2021-05-23 10:39:00)
+2021-04-03 19:43:39,301 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:40,164 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 101/360.0 (2021-05-23 10:40:00)
+2021-04-03 19:43:45,481 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:46,334 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 102/360.0 (2021-05-23 10:41:00)
+2021-04-03 19:43:51,637 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:52,427 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 103/360.0 (2021-05-23 10:42:00)
+2021-04-03 19:43:57,666 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:43:58,621 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 104/360.0 (2021-05-23 10:43:00)
+2021-04-03 19:44:03,881 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:04,722 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 105/360.0 (2021-05-23 10:44:00)
+2021-04-03 19:44:10,030 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:10,886 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 106/360.0 (2021-05-23 10:45:00)
+2021-04-03 19:44:16,096 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:16,974 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 107/360.0 (2021-05-23 10:46:00)
+2021-04-03 19:44:22,277 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:23,130 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 108/360.0 (2021-05-23 10:47:00)
+2021-04-03 19:44:28,502 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:29,330 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 109/360.0 (2021-05-23 10:48:00)
+2021-04-03 19:44:34,599 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:35,375 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 110/360.0 (2021-05-23 10:49:00)
+2021-04-03 19:44:40,646 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:41,462 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 111/360.0 (2021-05-23 10:50:00)
+2021-04-03 19:44:46,738 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:47,589 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 112/360.0 (2021-05-23 10:51:00)
+2021-04-03 19:44:52,883 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:53,713 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 113/360.0 (2021-05-23 10:52:00)
+2021-04-03 19:44:58,964 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:44:59,787 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 114/360.0 (2021-05-23 10:53:00)
+2021-04-03 19:45:05,099 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:05,911 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 115/360.0 (2021-05-23 10:54:00)
+2021-04-03 19:45:11,248 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:12,081 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 116/360.0 (2021-05-23 10:55:00)
+2021-04-03 19:45:17,423 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:18,203 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 117/360.0 (2021-05-23 10:56:00)
+2021-04-03 19:45:23,555 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:24,367 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 118/360.0 (2021-05-23 10:57:00)
+2021-04-03 19:45:29,747 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:30,588 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 119/360.0 (2021-05-23 10:58:00)
+2021-04-03 19:45:35,880 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:36,743 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 120/360.0 (2021-05-23 10:59:00)
+2021-04-03 19:45:41,993 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:42,849 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 121/360.0 (2021-05-23 11:00:00)
+2021-04-03 19:45:48,142 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:48,987 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 122/360.0 (2021-05-23 11:01:00)
+2021-04-03 19:45:54,331 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:45:55,168 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 123/360.0 (2021-05-23 11:02:00)
+2021-04-03 19:46:00,495 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:01,259 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 124/360.0 (2021-05-23 11:03:00)
+2021-04-03 19:46:06,554 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:07,365 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 125/360.0 (2021-05-23 11:04:00)
+2021-04-03 19:46:12,657 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:13,510 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 126/360.0 (2021-05-23 11:05:00)
+2021-04-03 19:46:18,798 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:19,660 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 127/360.0 (2021-05-23 11:06:00)
+2021-04-03 19:46:24,996 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:25,846 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 128/360.0 (2021-05-23 11:07:00)
+2021-04-03 19:46:31,142 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:32,001 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 129/360.0 (2021-05-23 11:08:00)
+2021-04-03 19:46:37,263 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:38,127 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 130/360.0 (2021-05-23 11:09:00)
+2021-04-03 19:46:43,409 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:44,201 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 131/360.0 (2021-05-23 11:10:00)
+2021-04-03 19:46:49,495 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:50,339 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 132/360.0 (2021-05-23 11:11:00)
+2021-04-03 19:46:55,597 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:46:56,469 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 133/360.0 (2021-05-23 11:12:00)
+2021-04-03 19:47:01,774 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:02,616 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 134/360.0 (2021-05-23 11:13:00)
+2021-04-03 19:47:07,858 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:08,700 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 135/360.0 (2021-05-23 11:14:00)
+2021-04-03 19:47:13,985 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:14,815 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 136/360.0 (2021-05-23 11:15:00)
+2021-04-03 19:47:20,124 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:20,962 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 137/360.0 (2021-05-23 11:16:00)
+2021-04-03 19:47:26,317 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:27,088 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 138/360.0 (2021-05-23 11:17:00)
+2021-04-03 19:47:32,489 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:33,290 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 139/360.0 (2021-05-23 11:18:00)
+2021-04-03 19:47:38,651 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:39,501 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 140/360.0 (2021-05-23 11:19:00)
+2021-04-03 19:47:44,811 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:45,662 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 141/360.0 (2021-05-23 11:20:00)
+2021-04-03 19:47:50,917 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:51,762 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 142/360.0 (2021-05-23 11:21:00)
+2021-04-03 19:47:57,045 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:47:57,876 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 143/360.0 (2021-05-23 11:22:00)
+2021-04-03 19:48:03,243 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:04,071 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 144/360.0 (2021-05-23 11:23:00)
+2021-04-03 19:48:09,354 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:10,133 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 145/360.0 (2021-05-23 11:24:00)
+2021-04-03 19:48:15,448 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:16,272 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 146/360.0 (2021-05-23 11:25:00)
+2021-04-03 19:48:21,592 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:22,450 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 147/360.0 (2021-05-23 11:26:00)
+2021-04-03 19:48:27,952 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:28,812 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 148/360.0 (2021-05-23 11:27:00)
+2021-04-03 19:48:34,102 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:34,988 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 149/360.0 (2021-05-23 11:28:00)
+2021-04-03 19:48:40,316 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:41,167 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 150/360.0 (2021-05-23 11:29:00)
+2021-04-03 19:48:46,493 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:47,333 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 151/360.0 (2021-05-23 11:30:00)
+2021-04-03 19:48:52,663 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:53,426 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 152/360.0 (2021-05-23 11:31:00)
+2021-04-03 19:48:58,793 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:48:59,607 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 153/360.0 (2021-05-23 11:32:00)
+2021-04-03 19:49:04,938 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:05,788 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 154/360.0 (2021-05-23 11:33:00)
+2021-04-03 19:49:11,094 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:11,953 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 155/360.0 (2021-05-23 11:34:00)
+2021-04-03 19:49:17,249 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:18,115 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 156/360.0 (2021-05-23 11:35:00)
+2021-04-03 19:49:23,409 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:24,278 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 157/360.0 (2021-05-23 11:36:00)
+2021-04-03 19:49:29,649 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:30,488 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 158/360.0 (2021-05-23 11:37:00)
+2021-04-03 19:49:35,813 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:36,595 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 159/360.0 (2021-05-23 11:38:00)
+2021-04-03 19:49:41,911 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:42,734 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 160/360.0 (2021-05-23 11:39:00)
+2021-04-03 19:49:47,983 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:48,828 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 161/360.0 (2021-05-23 11:40:00)
+2021-04-03 19:49:54,132 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:49:54,975 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 162/360.0 (2021-05-23 11:41:00)
+2021-04-03 19:50:00,214 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:01,050 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 163/360.0 (2021-05-23 11:42:00)
+2021-04-03 19:50:06,315 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:07,160 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 164/360.0 (2021-05-23 11:43:00)
+2021-04-03 19:50:12,455 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:13,312 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 165/360.0 (2021-05-23 11:44:00)
+2021-04-03 19:50:18,651 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:19,430 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 166/360.0 (2021-05-23 11:45:00)
+2021-04-03 19:50:24,774 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:25,588 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 167/360.0 (2021-05-23 11:46:00)
+2021-04-03 19:50:30,914 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:31,787 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 168/360.0 (2021-05-23 11:47:00)
+2021-04-03 19:50:37,048 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:37,904 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 169/360.0 (2021-05-23 11:48:00)
+2021-04-03 19:50:43,156 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:44,018 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 170/360.0 (2021-05-23 11:49:00)
+2021-04-03 19:50:49,224 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:50,066 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 171/360.0 (2021-05-23 11:50:00)
+2021-04-03 19:50:55,331 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:50:56,143 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 172/360.0 (2021-05-23 11:51:00)
+2021-04-03 19:51:01,421 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:02,180 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 173/360.0 (2021-05-23 11:52:00)
+2021-04-03 19:51:07,545 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:08,343 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 174/360.0 (2021-05-23 11:53:00)
+2021-04-03 19:51:13,649 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:14,467 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 175/360.0 (2021-05-23 11:54:00)
+2021-04-03 19:51:19,786 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:20,632 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 176/360.0 (2021-05-23 11:55:00)
+2021-04-03 19:51:25,957 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:26,805 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 177/360.0 (2021-05-23 11:56:00)
+2021-04-03 19:51:32,104 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:32,933 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 178/360.0 (2021-05-23 11:57:00)
+2021-04-03 19:51:38,230 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:39,080 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 179/360.0 (2021-05-23 11:58:00)
+2021-04-03 19:51:44,377 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:45,157 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 180/360.0 (2021-05-23 11:59:00)
+2021-04-03 19:51:50,492 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:51,316 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 181/360.0 (2021-05-23 12:00:00)
+2021-04-03 19:51:56,622 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:51:57,464 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 182/360.0 (2021-05-23 12:01:00)
+2021-04-03 19:52:02,717 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:03,554 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 183/360.0 (2021-05-23 12:02:00)
+2021-04-03 19:52:08,754 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:09,598 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 184/360.0 (2021-05-23 12:03:00)
+2021-04-03 19:52:14,859 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:15,703 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 185/360.0 (2021-05-23 12:04:00)
+2021-04-03 19:52:20,996 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:21,825 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 186/360.0 (2021-05-23 12:05:00)
+2021-04-03 19:52:27,103 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:27,888 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 187/360.0 (2021-05-23 12:06:00)
+2021-04-03 19:52:33,253 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:34,079 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 188/360.0 (2021-05-23 12:07:00)
+2021-04-03 19:52:39,405 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:40,273 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 189/360.0 (2021-05-23 12:08:00)
+2021-04-03 19:52:45,590 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:46,453 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 190/360.0 (2021-05-23 12:09:00)
+2021-04-03 19:52:51,685 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:52,539 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 191/360.0 (2021-05-23 12:10:00)
+2021-04-03 19:52:57,870 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:52:58,702 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 192/360.0 (2021-05-23 12:11:00)
+2021-04-03 19:53:04,027 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:04,856 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 193/360.0 (2021-05-23 12:12:00)
+2021-04-03 19:53:10,153 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:10,927 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 194/360.0 (2021-05-23 12:13:00)
+2021-04-03 19:53:16,237 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:17,055 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 195/360.0 (2021-05-23 12:14:00)
+2021-04-03 19:53:22,354 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:23,209 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 196/360.0 (2021-05-23 12:15:00)
+2021-04-03 19:53:28,687 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:29,524 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 197/360.0 (2021-05-23 12:16:00)
+2021-04-03 19:53:34,833 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:35,676 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 198/360.0 (2021-05-23 12:17:00)
+2021-04-03 19:53:40,973 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:41,805 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 199/360.0 (2021-05-23 12:18:00)
+2021-04-03 19:53:47,152 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:47,977 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 200/360.0 (2021-05-23 12:19:00)
+2021-04-03 19:53:53,243 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:53:54,030 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 201/360.0 (2021-05-23 12:20:00)
+2021-04-03 19:53:59,250 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:00,050 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 202/360.0 (2021-05-23 12:21:00)
+2021-04-03 19:54:05,331 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:06,167 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 203/360.0 (2021-05-23 12:22:00)
+2021-04-03 19:54:11,431 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:12,274 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 204/360.0 (2021-05-23 12:23:00)
+2021-04-03 19:54:17,523 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:18,370 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 205/360.0 (2021-05-23 12:24:00)
+2021-04-03 19:54:23,688 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:24,494 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 206/360.0 (2021-05-23 12:25:00)
+2021-04-03 19:54:29,713 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:30,529 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 207/360.0 (2021-05-23 12:26:00)
+2021-04-03 19:54:35,780 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:36,560 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 208/360.0 (2021-05-23 12:27:00)
+2021-04-03 19:54:41,822 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:42,642 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 209/360.0 (2021-05-23 12:28:00)
+2021-04-03 19:54:47,936 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:48,796 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 210/360.0 (2021-05-23 12:29:00)
+2021-04-03 19:54:54,059 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:54:54,906 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 211/360.0 (2021-05-23 12:30:00)
+2021-04-03 19:55:00,159 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:01,004 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 212/360.0 (2021-05-23 12:31:00)
+2021-04-03 19:55:06,322 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:07,157 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 213/360.0 (2021-05-23 12:32:00)
+2021-04-03 19:55:12,499 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:13,344 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 214/360.0 (2021-05-23 12:33:00)
+2021-04-03 19:55:18,652 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:19,428 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 215/360.0 (2021-05-23 12:34:00)
+2021-04-03 19:55:24,759 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:25,563 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 216/360.0 (2021-05-23 12:35:00)
+2021-04-03 19:55:30,888 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:31,714 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 217/360.0 (2021-05-23 12:36:00)
+2021-04-03 19:55:37,049 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:37,891 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 218/360.0 (2021-05-23 12:37:00)
+2021-04-03 19:55:43,277 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:44,130 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 219/360.0 (2021-05-23 12:38:00)
+2021-04-03 19:55:49,410 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:50,252 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 220/360.0 (2021-05-23 12:39:00)
+2021-04-03 19:55:55,507 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:55:56,350 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 221/360.0 (2021-05-23 12:40:00)
+2021-04-03 19:56:01,586 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:02,357 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 222/360.0 (2021-05-23 12:41:00)
+2021-04-03 19:56:07,613 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:08,417 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 223/360.0 (2021-05-23 12:42:00)
+2021-04-03 19:56:13,737 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:14,573 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 224/360.0 (2021-05-23 12:43:00)
+2021-04-03 19:56:19,831 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:20,696 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 225/360.0 (2021-05-23 12:44:00)
+2021-04-03 19:56:26,292 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:27,162 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 226/360.0 (2021-05-23 12:45:00)
+2021-04-03 19:56:32,663 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:33,505 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 227/360.0 (2021-05-23 12:46:00)
+2021-04-03 19:56:38,769 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:39,603 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 228/360.0 (2021-05-23 12:47:00)
+2021-04-03 19:56:44,841 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:45,613 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 229/360.0 (2021-05-23 12:48:00)
+2021-04-03 19:56:50,827 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:51,621 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 230/360.0 (2021-05-23 12:49:00)
+2021-04-03 19:56:56,773 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:56:57,594 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 231/360.0 (2021-05-23 12:50:00)
+2021-04-03 19:57:02,770 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:03,738 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 232/360.0 (2021-05-23 12:51:00)
+2021-04-03 19:57:08,941 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:09,724 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 233/360.0 (2021-05-23 12:52:00)
+2021-04-03 19:57:14,948 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:15,738 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 234/360.0 (2021-05-23 12:53:00)
+2021-04-03 19:57:20,981 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:21,815 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 235/360.0 (2021-05-23 12:54:00)
+2021-04-03 19:57:27,067 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:27,842 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 236/360.0 (2021-05-23 12:55:00)
+2021-04-03 19:57:33,099 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:33,890 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 237/360.0 (2021-05-23 12:56:00)
+2021-04-03 19:57:39,183 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:40,011 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 238/360.0 (2021-05-23 12:57:00)
+2021-04-03 19:57:45,223 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:46,057 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 239/360.0 (2021-05-23 12:58:00)
+2021-04-03 19:57:51,246 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:52,064 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 240/360.0 (2021-05-23 12:59:00)
+2021-04-03 19:57:57,249 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:57:58,088 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 241/360.0 (2021-05-23 13:00:00)
+2021-04-03 19:58:03,504 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:04,327 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 242/360.0 (2021-05-23 13:01:00)
+2021-04-03 19:58:09,589 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:10,364 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 243/360.0 (2021-05-23 13:02:00)
+2021-04-03 19:58:15,575 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:16,382 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 244/360.0 (2021-05-23 13:03:00)
+2021-04-03 19:58:21,724 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:22,566 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 245/360.0 (2021-05-23 13:04:00)
+2021-04-03 19:58:27,861 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:28,716 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 246/360.0 (2021-05-23 13:05:00)
+2021-04-03 19:58:33,972 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:34,813 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 247/360.0 (2021-05-23 13:06:00)
+2021-04-03 19:58:40,187 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:41,024 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 248/360.0 (2021-05-23 13:07:00)
+2021-04-03 19:58:46,402 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:47,243 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 249/360.0 (2021-05-23 13:08:00)
+2021-04-03 19:58:52,576 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:53,369 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 250/360.0 (2021-05-23 13:09:00)
+2021-04-03 19:58:58,640 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:58:59,477 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 251/360.0 (2021-05-23 13:10:00)
+2021-04-03 19:59:04,921 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:05,799 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 252/360.0 (2021-05-23 13:11:00)
+2021-04-03 19:59:11,092 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:11,950 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 253/360.0 (2021-05-23 13:12:00)
+2021-04-03 19:59:17,394 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:18,251 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 254/360.0 (2021-05-23 13:13:00)
+2021-04-03 19:59:23,571 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:24,427 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 255/360.0 (2021-05-23 13:14:00)
+2021-04-03 19:59:29,904 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:30,748 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 256/360.0 (2021-05-23 13:15:00)
+2021-04-03 19:59:36,050 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:36,841 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 257/360.0 (2021-05-23 13:16:00)
+2021-04-03 19:59:42,256 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:43,090 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 258/360.0 (2021-05-23 13:17:00)
+2021-04-03 19:59:48,398 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:49,254 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 259/360.0 (2021-05-23 13:18:00)
+2021-04-03 19:59:54,456 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 19:59:55,295 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 260/360.0 (2021-05-23 13:19:00)
+2021-04-03 20:00:00,645 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:01,479 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 261/360.0 (2021-05-23 13:20:00)
+2021-04-03 20:00:06,730 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:07,559 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 262/360.0 (2021-05-23 13:21:00)
+2021-04-03 20:00:12,826 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:13,647 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 263/360.0 (2021-05-23 13:22:00)
+2021-04-03 20:00:18,998 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:19,782 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 264/360.0 (2021-05-23 13:23:00)
+2021-04-03 20:00:25,040 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:25,867 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 265/360.0 (2021-05-23 13:24:00)
+2021-04-03 20:00:31,217 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:32,069 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 266/360.0 (2021-05-23 13:25:00)
+2021-04-03 20:00:37,517 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:38,377 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 267/360.0 (2021-05-23 13:26:00)
+2021-04-03 20:00:43,720 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:44,584 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 268/360.0 (2021-05-23 13:27:00)
+2021-04-03 20:00:49,833 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:50,683 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 269/360.0 (2021-05-23 13:28:00)
+2021-04-03 20:00:55,991 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:00:56,818 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 270/360.0 (2021-05-23 13:29:00)
+2021-04-03 20:01:02,107 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:02,881 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 271/360.0 (2021-05-23 13:30:00)
+2021-04-03 20:01:08,165 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:08,970 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 272/360.0 (2021-05-23 13:31:00)
+2021-04-03 20:01:14,323 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:15,186 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 273/360.0 (2021-05-23 13:32:00)
+2021-04-03 20:01:20,665 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:21,529 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 274/360.0 (2021-05-23 13:33:00)
+2021-04-03 20:01:27,245 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:28,112 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 275/360.0 (2021-05-23 13:34:00)
+2021-04-03 20:01:33,576 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:34,422 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 276/360.0 (2021-05-23 13:35:00)
+2021-04-03 20:01:39,694 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:40,538 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 277/360.0 (2021-05-23 13:36:00)
+2021-04-03 20:01:45,793 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:46,569 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 278/360.0 (2021-05-23 13:37:00)
+2021-04-03 20:01:51,788 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:52,579 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 279/360.0 (2021-05-23 13:38:00)
+2021-04-03 20:01:57,831 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:01:58,659 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 280/360.0 (2021-05-23 13:39:00)
+2021-04-03 20:02:03,960 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:04,821 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 281/360.0 (2021-05-23 13:40:00)
+2021-04-03 20:02:10,075 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:10,940 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 282/360.0 (2021-05-23 13:41:00)
+2021-04-03 20:02:16,397 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:17,224 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 283/360.0 (2021-05-23 13:42:00)
+2021-04-03 20:02:22,606 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:23,446 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 284/360.0 (2021-05-23 13:43:00)
+2021-04-03 20:02:28,787 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:29,562 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 285/360.0 (2021-05-23 13:44:00)
+2021-04-03 20:02:34,896 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:35,708 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 286/360.0 (2021-05-23 13:45:00)
+2021-04-03 20:02:41,032 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:41,879 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 287/360.0 (2021-05-23 13:46:00)
+2021-04-03 20:02:47,275 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:48,112 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 288/360.0 (2021-05-23 13:47:00)
+2021-04-03 20:02:53,590 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:02:54,456 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 289/360.0 (2021-05-23 13:48:00)
+2021-04-03 20:02:59,828 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:00,669 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 290/360.0 (2021-05-23 13:49:00)
+2021-04-03 20:03:06,111 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:06,951 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 291/360.0 (2021-05-23 13:50:00)
+2021-04-03 20:03:12,580 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:13,366 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 292/360.0 (2021-05-23 13:51:00)
+2021-04-03 20:03:18,863 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:19,690 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 293/360.0 (2021-05-23 13:52:00)
+2021-04-03 20:03:25,051 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:25,897 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 294/360.0 (2021-05-23 13:53:00)
+2021-04-03 20:03:31,175 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:32,018 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 295/360.0 (2021-05-23 13:54:00)
+2021-04-03 20:03:37,340 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:38,190 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 296/360.0 (2021-05-23 13:55:00)
+2021-04-03 20:03:43,496 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:44,354 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 297/360.0 (2021-05-23 13:56:00)
+2021-04-03 20:03:49,719 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:50,555 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 298/360.0 (2021-05-23 13:57:00)
+2021-04-03 20:03:55,976 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:03:56,748 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 299/360.0 (2021-05-23 13:58:00)
+2021-04-03 20:04:02,147 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:02,959 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 300/360.0 (2021-05-23 13:59:00)
+2021-04-03 20:04:08,348 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:09,200 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 301/360.0 (2021-05-23 14:00:00)
+2021-04-03 20:04:14,525 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:15,363 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 302/360.0 (2021-05-23 14:01:00)
+2021-04-03 20:04:20,660 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:21,503 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 303/360.0 (2021-05-23 14:02:00)
+2021-04-03 20:04:26,817 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:27,646 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 304/360.0 (2021-05-23 14:03:00)
+2021-04-03 20:04:33,047 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:33,884 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 305/360.0 (2021-05-23 14:04:00)
+2021-04-03 20:04:39,250 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:40,033 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 306/360.0 (2021-05-23 14:05:00)
+2021-04-03 20:04:45,336 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:46,146 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 307/360.0 (2021-05-23 14:06:00)
+2021-04-03 20:04:51,499 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:52,342 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 308/360.0 (2021-05-23 14:07:00)
+2021-04-03 20:04:57,674 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:04:58,534 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 309/360.0 (2021-05-23 14:08:00)
+2021-04-03 20:05:03,878 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:04,754 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 310/360.0 (2021-05-23 14:09:00)
+2021-04-03 20:05:10,026 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:10,880 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 311/360.0 (2021-05-23 14:10:00)
+2021-04-03 20:05:16,170 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:17,010 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 312/360.0 (2021-05-23 14:11:00)
+2021-04-03 20:05:22,317 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:23,097 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 313/360.0 (2021-05-23 14:12:00)
+2021-04-03 20:05:28,442 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:29,258 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 314/360.0 (2021-05-23 14:13:00)
+2021-04-03 20:05:34,625 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:35,487 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 315/360.0 (2021-05-23 14:14:00)
+2021-04-03 20:05:40,841 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:41,692 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 316/360.0 (2021-05-23 14:15:00)
+2021-04-03 20:05:47,120 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:47,985 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 317/360.0 (2021-05-23 14:16:00)
+2021-04-03 20:05:53,306 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:05:54,156 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 318/360.0 (2021-05-23 14:17:00)
+2021-04-03 20:05:59,480 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:00,339 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 319/360.0 (2021-05-23 14:18:00)
+2021-04-03 20:06:05,604 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:06,395 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 320/360.0 (2021-05-23 14:19:00)
+2021-04-03 20:06:11,685 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:12,501 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 321/360.0 (2021-05-23 14:20:00)
+2021-04-03 20:06:17,744 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:18,598 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 322/360.0 (2021-05-23 14:21:00)
+2021-04-03 20:06:23,965 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:24,812 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 323/360.0 (2021-05-23 14:22:00)
+2021-04-03 20:06:29,917 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:30,754 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 324/360.0 (2021-05-23 14:23:00)
+2021-04-03 20:06:35,894 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:36,704 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 325/360.0 (2021-05-23 14:24:00)
+2021-04-03 20:06:41,808 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:42,612 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 326/360.0 (2021-05-23 14:25:00)
+2021-04-03 20:06:47,702 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:48,452 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 327/360.0 (2021-05-23 14:26:00)
+2021-04-03 20:06:53,545 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:06:54,332 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 328/360.0 (2021-05-23 14:27:00)
+2021-04-03 20:06:59,437 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:00,258 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 329/360.0 (2021-05-23 14:28:00)
+2021-04-03 20:07:05,309 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:06,134 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 330/360.0 (2021-05-23 14:29:00)
+2021-04-03 20:07:11,139 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:11,974 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 331/360.0 (2021-05-23 14:30:00)
+2021-04-03 20:07:17,016 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:17,836 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 332/360.0 (2021-05-23 14:31:00)
+2021-04-03 20:07:22,940 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:23,749 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 333/360.0 (2021-05-23 14:32:00)
+2021-04-03 20:07:29,075 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:29,830 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 334/360.0 (2021-05-23 14:33:00)
+2021-04-03 20:07:35,038 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:35,820 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 335/360.0 (2021-05-23 14:34:00)
+2021-04-03 20:07:41,069 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:41,878 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 336/360.0 (2021-05-23 14:35:00)
+2021-04-03 20:07:46,985 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:47,801 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 337/360.0 (2021-05-23 14:36:00)
+2021-04-03 20:07:52,875 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:53,688 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 338/360.0 (2021-05-23 14:37:00)
+2021-04-03 20:07:58,830 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:07:59,657 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 339/360.0 (2021-05-23 14:38:00)
+2021-04-03 20:08:04,915 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:05,716 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 340/360.0 (2021-05-23 14:39:00)
+2021-04-03 20:08:10,820 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:11,577 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 341/360.0 (2021-05-23 14:40:00)
+2021-04-03 20:08:16,683 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:17,483 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 342/360.0 (2021-05-23 14:41:00)
+2021-04-03 20:08:22,624 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:23,441 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 343/360.0 (2021-05-23 14:42:00)
+2021-04-03 20:08:28,590 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:29,406 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 344/360.0 (2021-05-23 14:43:00)
+2021-04-03 20:08:34,528 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:35,349 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 345/360.0 (2021-05-23 14:44:00)
+2021-04-03 20:08:40,528 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:41,326 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 346/360.0 (2021-05-23 14:45:00)
+2021-04-03 20:08:46,502 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:47,298 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 347/360.0 (2021-05-23 14:46:00)
+2021-04-03 20:08:52,330 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:53,053 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 348/360.0 (2021-05-23 14:47:00)
+2021-04-03 20:08:58,051 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:08:58,801 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 349/360.0 (2021-05-23 14:48:00)
+2021-04-03 20:09:03,777 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:04,544 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 350/360.0 (2021-05-23 14:49:00)
+2021-04-03 20:09:09,518 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:10,293 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 351/360.0 (2021-05-23 14:50:00)
+2021-04-03 20:09:15,185 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:15,957 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 352/360.0 (2021-05-23 14:51:00)
+2021-04-03 20:09:20,955 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:21,730 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 353/360.0 (2021-05-23 14:52:00)
+2021-04-03 20:09:26,893 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:27,648 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 354/360.0 (2021-05-23 14:53:00)
+2021-04-03 20:09:32,592 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:33,309 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 355/360.0 (2021-05-23 14:54:00)
+2021-04-03 20:09:38,313 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:39,060 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 356/360.0 (2021-05-23 14:55:00)
+2021-04-03 20:09:43,988 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:44,749 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 357/360.0 (2021-05-23 14:56:00)
+2021-04-03 20:09:49,523 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:50,280 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 358/360.0 (2021-05-23 14:57:00)
+2021-04-03 20:09:54,990 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:09:55,748 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 359/360.0 (2021-05-23 14:58:00)
+2021-04-03 20:10:00,495 - wflow_sbm - wf_DynamicFramework_federico - INFO - saving maps
+2021-04-03 20:10:01,236 - wflow_sbm - wf_DynamicFramework_federico - DEBUG - timestep: 360/360.0 (2021-05-23 14:59:00)
+2021-04-03 20:10:01,236 - wflow_sbm - wflow_sbm_federico - INFO - Saving initial conditions...
+2021-04-03 20:10:02,535 - wflow_sbm - wf_DynamicFramework_federico - INFO - Saving summary maps to disk...
