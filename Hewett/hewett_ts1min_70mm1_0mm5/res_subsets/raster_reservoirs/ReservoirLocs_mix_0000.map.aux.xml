@@ -1,0 +1,10 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="PCRASTER_VALUESCALE">VS_NOMINAL</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
