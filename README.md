@@ -1,2 +1,2 @@
 # distributed_attenuation
-https://zenodo.org/badge/latestdoi/389381871
+https://doi.org/10.5281/zenodo.5516653
