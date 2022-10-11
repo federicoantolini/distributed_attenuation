@@ -1,0 +1,13 @@
+#!/bin/sh
+#$ -M federico-antolini@uiowa.edu -m e
+#$ -N h_gen1
+#$ -q UI-MPI
+#$ -e /Users/antolini/heuristics/mid1/mid_2080_15mar -o /Users/antolini/heuristics/mid1/mid_2080_15mar -j y
+#$ -pe 56cpn 112
+#OMP_NUM_THREADS=2
+
+conda activate fedepy38
+
+cd /Users/antolini/miniconda3/envs/fedepy38/lib/python3.8/site-packages/wflow
+
+mpirun -n 112 --map-by node python -m mpi_distrib_RR -C /Users/antolini/heuristics/mid1/mid_2080_15mar -D /Users/antolini/heuristics/mid1/mid_2080_15mar/gen1_subsets.txt
