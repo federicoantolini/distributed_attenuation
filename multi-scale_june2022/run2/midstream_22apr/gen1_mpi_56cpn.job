@@ -1,0 +1,13 @@
+#!/bin/sh
+#$ -M federico-antolini@uiowa.edu -m e
+#$ -N h_gen1
+#$ -q UI-MPI
+#$ -e /Users/antolini/paper3/mid_22apr -o /Users/antolini/paper3/mid_22apr -j y
+#$ -pe 56cpn 840
+#OMP_NUM_THREADS=2
+
+conda activate fedepy38
+
+cd /Users/antolini/miniconda3/envs/fedepy38/lib/python3.8/site-packages/wflow
+
+mpirun -n 804 --map-by node python -m mpi_distrib_RR -C /Users/antolini/paper3/mid_22apr -D /Users/antolini/paper3/mid_22apr/gen1_subsets.txt

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20220319</CreaDate><CreaTime>17365400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20220319" Time="173654">ExtractByMask wflow_dem.map hewett_full_watershed A:\heuristics\reservoir_locations\hewett_dem.tif</Process></lineage></DataProperties></Esri></metadata>
